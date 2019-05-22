@@ -29,6 +29,7 @@ public class Main extends Application {
 			// Show the scene containing the root layout.
 			Scene scene = new Scene(rootLayout);
 			primaryStage.setScene(scene);
+			primaryStage.getIcons().add(new Image("file:resources/images/icon_address.png"));
 			primaryStage.show();
 		} catch (Exception e) {
 			e.printStackTrace();
